@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "party.lemons.dingdong.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ProjectileMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
