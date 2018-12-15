@@ -2,7 +2,7 @@
   "id": "dingdong",
   "name": "Ding Dong",
   "description": "Hot Damn! This mod makes bells ding dong when you shoot em",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "side": "universal",
   "initializer": "party.lemons.dingdong.DingDong",
   "requires": {

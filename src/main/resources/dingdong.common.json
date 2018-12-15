@@ -3,7 +3,9 @@
   "package": "party.lemons.dingdong.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ProjectileMixin"
+    "ProjectileMixin",
+    "BellMixin",
+    "BellBlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

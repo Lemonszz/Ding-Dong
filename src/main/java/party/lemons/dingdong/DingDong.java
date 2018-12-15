@@ -1,6 +1,5 @@
 package party.lemons.dingdong;
 
-import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.BellBlockEntity;
@@ -21,7 +20,6 @@ public class DingDong implements ModInitializer
 				bell.method_17031(hit.side);
 
 				world.playSound(null, hit.getBlockPos(), SoundEvents.BLOCK_BELL_USE, SoundCategory.BLOCK, 1.0F, 1.0F);
-
 			}
 		}
 	}
@@ -29,6 +27,5 @@ public class DingDong implements ModInitializer
 	@Override
 	public void onInitialize()
 	{
-
 	}
 }
